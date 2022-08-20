@@ -19,6 +19,7 @@ const Header = () => {
     <header className="stickytop-0 bg-white justify-between">
       <div className="flex w-full p-6 items-center">
         <Image
+          alt=""
           src={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
           }
