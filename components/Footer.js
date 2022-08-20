@@ -8,7 +8,7 @@ const Footer = () => {
       </div>
       <div>
         <div className="grid grid-cols-1">
-          <div className="flex justify-center items-center">
+          <div className="flex  space-x-2 px-8 items-center">
             <GlobeIcon className="h-5 mr-1 text-gray-700" />
             Carbonsince 2022
           </div>

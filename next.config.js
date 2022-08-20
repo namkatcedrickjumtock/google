@@ -5,11 +5,11 @@ const nextConfig = {
   images: {
     domains: [
       "links.papareact.com",
-      'upload.wikimedia.org',
-      'flyclipart.com'
+      "upload.wikimedia.org",
+      "flyclipart.com",
+      "media-exp1.licdn.com",
     ],
   },
-  
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
