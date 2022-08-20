@@ -15,12 +15,12 @@ const SearchResults = ({ results }) => {
               {results?.formattedUrl}
             </a>
             <a href={results?.link}>
-              <h2 className="truncate text-xl text-blue-800 font-medium group-hover:underline">
+              <h2 className="truncate text-xl text-blue-800  group-hover:underline">
                 {results.title}
               </h2>
             </a>
           </div>
-          <p className="line-clamp-2 font-sans text-gray-700 text-sm">{results?.snippet}</p>
+          <p className="line-clamp-2  text-gray-700 text-sm">{results?.snippet}</p>
         </div>
       ))}
 
