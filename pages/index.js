@@ -52,6 +52,7 @@ export default function Home() {
           }
           height={100}
           width={300}
+          alt=''
         />
         <div
           className="flex w-full mt-5 hover:shadow-lg focus-within:shadow-lg max-w-md  rounded-full items-center py-3 px-5 border
